@@ -1,0 +1,31 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.content {
+  border: 1px solid black;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: fit-content;
+}
+
+.content_user {
+  display: flex;
+}
+
+.content_user > *:first-child {
+  margin-right: 50px;
+}
+
+.sr-only {
+  margin-right: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
